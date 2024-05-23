@@ -28,7 +28,7 @@ def process_query(api_key:str='', query: str='', pdf_file:str='', language:str='
     # Initialize OpenAI with the provided API key
     OPENAI_API_KEY = api_key
     print('other api key', OPENAI_API_KEY)
-    model = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="GPT-4")
+    model = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-4o")
 
     # use StrOutputParser to extract the answer as a string
     parser = StrOutputParser()
