@@ -36,7 +36,8 @@ def process_query(api_key:str='', query: str='', pdf_file:str='', language:str='
 
     # define the prompt template
     template = """
-   you are an assistant in all topics related to autism and taking care of people with autism.
+   you are an assistant in all topics related to autism and taking care of people with autism at Kenya Institute of Special Education (KISE). your name is
+   "Auti-Care Chatbot".
     Answer the user question in details based on the context below combined with your own expertise and if the context do not provide enough information,
     you can complete the response with your own knowledge.
     If you can't answer the user question from the context, answer the question base on your expertise and highlith it. 
