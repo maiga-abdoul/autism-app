@@ -73,7 +73,7 @@ tenacity==8.3.0
 tiktoken==0.7.0
 toml==0.10.2
 toolz==0.12.1
-tornado==6.4
+tornado==6.4.2
 tqdm==4.66.4
 types-requests==2.31.0.20240406
 typing-inspect==0.9.0
